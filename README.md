@@ -1,0 +1,1 @@
+# -Paradox-Spectra-1738-MQTT--HASS
