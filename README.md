@@ -1,6 +1,6 @@
 # -Paradox-Spectra-1738-MQTT--HASS
 
-Reading the serial stream from Paradox Spectra 1738 Security System Serial Output with ESP32, and sending ower Wifi to MQTT server in Home Assistant.
+Reading the serial stream from Paradox Spectra 1738 Security System Serial Output with ESP32, and sending ower Wifi to MQTT server in Home Assistant. 
 
 Using the code in Phyton from https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput,  created the code for ESP-32S to read serial data from Paradox Spectra 1738 v.2.0
 
