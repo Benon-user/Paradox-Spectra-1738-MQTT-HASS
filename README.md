@@ -1,6 +1,6 @@
 # -Paradox-Spectra-1738-MQTT--HASS
 
-Base pn the https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput created code for ESP32 to read serial data from Paradox Spectra 1738 v.2.0
+Using the code in Phyton from https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput,  created the code for ESP-32S to read serial data from Paradox Spectra 1738 v.2.0
 
 Equipment used:
 
