@@ -64,10 +64,10 @@ Ensure that your ESP32 is correctly connected to the serial device (e.g., Parado
 Home Assistant setup
 
 Ensure MQTT is Set Up in Home Assistant
-Configure MQTT sensors in configuration.yaml.
+Configure MQTT sensor in configuration.yaml.
 
-mqtt:
-  sensor:
-    - name: "Paradox Event and Message"
-      state_topic: "home/alarms/paradox"
+    mqtt:
+      sensor:
+        - name: "Paradox Event and Message"
+          state_topic: "home/alarms/paradox"
 
