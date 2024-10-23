@@ -3,7 +3,7 @@
 Reading the serial stream from Paradox Spectra 1738 Security System Serial Output with ESP32, and sending ower Wifi to MQTT server in Home Assistant. 
 
 ![image](https://github.com/user-attachments/assets/139da3f6-5b41-4e8d-b6fd-3a532aab6416)
-![image](https://github.com/user-attachments/assets/0af1fbe8-647a-4f79-a1fa-1d00a8aaf33a)
+
 
 
 **Equipment used:**
@@ -15,7 +15,8 @@ Reading the serial stream from Paradox Spectra 1738 Security System Serial Outpu
 **Electrical Connections**
 
 DC/DC step-down converter must be set output voltage to 5V before conneting ESP32 board.
-![Connection Diagram](https://github.com/user-attachments/assets/3c20b173-1026-4cd1-9d6c-a3f54486b4d7)
+
+![image](https://github.com/user-attachments/assets/933f8feb-7a56-45bc-963f-e294577bc52d)
 
 
 **Code Explanation:**
