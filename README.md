@@ -21,7 +21,7 @@ DC/DC step-down converter must be set output voltage to 5V before conneting ESP3
 
 **Code Explanation:**
 
-Using the code in Phyton from https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput,  created the code for ESP-32S to read serial data from Paradox Spectra 1738 v.2.0 then decode it to user friendly text messages and send ower Wifi to MQTT server in Home Assistant. 
+Using the code in Phyton from https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput,  created the code for ESP-32S to read serial data from Paradox Spectra 1738 v.2.1 then decode it to user friendly text messages and send ower Wifi to MQTT server in Home Assistant. 
 
 The MQTT payload is published using client.publish("home/alarms/paradox", mqttPayload.c_str());.
 The UART payload is printed using Serial.println(uartPayload);.
