@@ -8,10 +8,10 @@ Reading the serial stream from Paradox Spectra 1738 Security System Serial Outpu
 **Equipment used:**
 
 **ESP32 Development Board WiFi+Bluetooth Ultra-Low Power Consumption Dual Core ESP-32S with terminal adapter**
-https://www.aliexpress.com/item/1005005958763057.html?spm=a2g0o.order_detail.order_detail_item.3.b04b43ceKjKK9C
+https://www.aliexpress.com/item/1005005958763057.html
 
 **LM2596 DC-DC Input 4V-35V Output 1.23V-30V Adjustable Step-down Regulator module**
-https://www.aliexpress.com/item/2035753977.html?spm=a2g0o.order_detail.order_detail_item.11.123ef19cTXfBVt
+https://www.aliexpress.com/item/2035753977.html
 
 **Electrical Connections**
 
