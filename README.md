@@ -21,8 +21,8 @@ DC/DC step-down converter must be set output voltage to 5V before conneting ESP3
 
 **Code Explanation:**
 
-Using the knowledge from reverse engineering in repository https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput ,  created the code in Arduion IDE for ESP-32S to read serial data from Paradox Spectra 1738 v.2.1.
-Then decode it to user friendly text messages and send ower Wifi to MQTT broker in Home Assistant. 
+Using the knowledge from reverse engineering in repository https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput ,  created the scatch in Arduion IDE for ESP-32S. 
+Programm reads serial data from Paradox Spectra 1738 v.2.1. then decodes it to user friendly text messages and sends ower Wifi to MQTT broker in Home Assistant. 
 
 
 WiFi and MQTT Connection:
