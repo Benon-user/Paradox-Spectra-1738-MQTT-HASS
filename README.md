@@ -2,7 +2,8 @@
 
 Reading the serial stream from Paradox Spectra 1738 Security System Serial Output with ESP32, and sending ower Wifi to MQTT server in Home Assistant. 
 
-Using the code in Phyton from https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput,  created the code for ESP-32S to read serial data from Paradox Spectra 1738 v.2.0
+![image](https://github.com/user-attachments/assets/139da3f6-5b41-4e8d-b6fd-3a532aab6416)
+
 
 Equipment used:
 
@@ -12,7 +13,10 @@ https://www.aliexpress.com/item/1005005958763057.html?spm=a2g0o.order_detail.ord
 **LM2596 DC-DC Input 4V-35V Output 1.23V-30V Adjustable Step-down Regulator module**
 https://www.aliexpress.com/item/2035753977.html?spm=a2g0o.order_detail.order_detail_item.11.123ef19cTXfBVt
 
+
 **Code Explanation:**
+Using the code in Phyton from https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput,  created the code for ESP-32S to read serial data from Paradox Spectra 1738 v.2.0
+
 
 The MQTT payload is published using client.publish("home/alarms/paradox", mqttPayload.c_str());.
 The UART payload is printed using Serial.println(uartPayload);.
