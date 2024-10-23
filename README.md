@@ -63,7 +63,7 @@ Ensure that your ESP32 is correctly connected to the serial device (e.g., Parado
 
 **Home Assistant setup**
 
-Ensure MQTT is Set Up in Home Assistant
+Ensure MQTT is Set Up in Home Assistant 
 Configure MQTT sensor in configuration.yaml.
 
     mqtt:
