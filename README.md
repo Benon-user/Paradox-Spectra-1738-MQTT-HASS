@@ -14,6 +14,10 @@ https://www.aliexpress.com/item/1005005958763057.html?spm=a2g0o.order_detail.ord
 https://www.aliexpress.com/item/2035753977.html?spm=a2g0o.order_detail.order_detail_item.11.123ef19cTXfBVt
 
 
+DC/DC step-down converter must be set output voltage to 5V before conneting ESP32 board.
+![Connection Diagram](https://github.com/user-attachments/assets/3c20b173-1026-4cd1-9d6c-a3f54486b4d7)
+
+
 **Code Explanation:**
 
 Using the code in Phyton from https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput,  created the code for ESP-32S to read serial data from Paradox Spectra 1738 v.2.0 then decode it to user friendly text messages and send ower Wifi to MQTT server in Home Assistant. 
@@ -54,5 +58,6 @@ Various helper functions (getEventName, getZoneName, etc.) are used to convert r
 Note:
 
 Replace placeholders (YOUR_SSID, YOUR_WIFI_PASSWORD, YOUR_MQTT_BROKER_IP, YOUR_MQTT_USERNAME, YOUR_MQTT_PASSWORD) with your actual WiFi credentials and MQTT broker details.
-Ensure that your ESP32 is correctly connected to the serial device (e.g., Paradox Spectra 1738 alarm system).
-You may need to adjust the pin numbers and settings if you're using different serial pins or configurations.
+Ensure that your ESP32 is correctly connected to the serial device (e.g., Paradox Spectra 1738 alarm system). You may need to adjust the pin numbers and settings if you're using different serial pins or configurations.
+
+
