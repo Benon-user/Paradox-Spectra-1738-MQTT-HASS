@@ -30,19 +30,23 @@ WiFi and MQTT Connection:
  The WiFi library is used to connect the ESP32 to a WiFi network.
  The PubSubClient library handles MQTT communication.
 
+
 Connecting to WiFi:
 
  The setup_wifi() function connects the ESP32 to the specified WiFi network.
+
 
 MQTT Setup and Reconnection:
 
  The MQTT client is set up with the client.setServer(mqtt_server, mqtt_port) function.
  The reconnect() function ensures the ESP32 stays connected to the MQTT broker using the provided username and password.
 
+
 Setting up Serial Communication on Pins 17 and 16:
 
  The Serial2 object is defined to use the second hardware serial port (UART1) on the ESP32.
  The Serial2.begin(9600, SERIAL_8N1, 17, 16) initializes the serial communication with a baud rate of 9600 on pins 17 (RX) and 16 (TX). Only RX is connected in this application.
+
 
 Reading Serial Data and Publishing to MQTT and UART:
 
@@ -51,14 +55,18 @@ Reading Serial Data and Publishing to MQTT and UART:
  The payload for MQTT is created without the paradoxTime: String mqttPayload = String(Event) + ", " + Message;.
  The payload for UART includes the paradoxTime: String uartPayload = String(paradoxTime) + " " + Event + ", " + Message;.
 
+
 Helper Functions:
 
  Various helper functions (getEventName, getZoneName, etc.) are used to convert raw data into human-readable strings.
+
 
 Note:
 
  Replace placeholders (YOUR_SSID, YOUR_WIFI_PASSWORD, YOUR_MQTT_BROKER_IP, YOUR_MQTT_USERNAME, YOUR_MQTT_PASSWORD) with your actual WiFi credentials and MQTT broker details.
  Ensure that your ESP32 is correctly connected to the serial device (e.g., Paradox Spectra 1738 alarm system). You may need to adjust the pin numbers and settings if you're using different serial pins or configurations.
+
+
 
 **Home Assistant setup**
 
