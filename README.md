@@ -61,4 +61,13 @@ Note:
 Replace placeholders (YOUR_SSID, YOUR_WIFI_PASSWORD, YOUR_MQTT_BROKER_IP, YOUR_MQTT_USERNAME, YOUR_MQTT_PASSWORD) with your actual WiFi credentials and MQTT broker details.
 Ensure that your ESP32 is correctly connected to the serial device (e.g., Paradox Spectra 1738 alarm system). You may need to adjust the pin numbers and settings if you're using different serial pins or configurations.
 
+Home Assistant setup
+
+Ensure MQTT is Set Up in Home Assistant
+Configure MQTT sensors in configuration.yaml.
+
+mqtt:
+  sensor:
+    - name: "Paradox Event and Message"
+      state_topic: "home/alarms/paradox"
 
