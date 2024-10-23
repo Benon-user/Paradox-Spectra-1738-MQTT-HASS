@@ -13,6 +13,7 @@ https://www.aliexpress.com/item/1005005958763057.html?spm=a2g0o.order_detail.ord
 **LM2596 DC-DC Input 4V-35V Output 1.23V-30V Adjustable Step-down Regulator module**
 https://www.aliexpress.com/item/2035753977.html?spm=a2g0o.order_detail.order_detail_item.11.123ef19cTXfBVt
 
+**Electrical Connections**
 
 DC/DC step-down converter must be set output voltage to 5V before conneting ESP32 board.
 ![Connection Diagram](https://github.com/user-attachments/assets/3c20b173-1026-4cd1-9d6c-a3f54486b4d7)
