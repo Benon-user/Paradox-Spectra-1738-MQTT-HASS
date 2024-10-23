@@ -5,7 +5,7 @@ Reading the serial stream from Paradox Spectra 1738 Security System Serial Outpu
 ![image](https://github.com/user-attachments/assets/139da3f6-5b41-4e8d-b6fd-3a532aab6416)
 
 
-Equipment used:
+**Equipment used:**
 
 **ESP32 Development Board WiFi+Bluetooth Ultra-Low Power Consumption Dual Core ESP-32S with terminal adapter**
 https://www.aliexpress.com/item/1005005958763057.html?spm=a2g0o.order_detail.order_detail_item.3.b04b43ceKjKK9C
@@ -15,6 +15,7 @@ https://www.aliexpress.com/item/2035753977.html?spm=a2g0o.order_detail.order_det
 
 
 **Code Explanation:**
+
 Using the code in Phyton from https://github.com/nplourde/Paradox-Spectra-1738-SerialOutput,  created the code for ESP-32S to read serial data from Paradox Spectra 1738 v.2.0
 
 
@@ -34,8 +35,9 @@ The reconnect() function ensures the ESP32 stays connected to the MQTT broker us
 Setting up Serial Communication on Pins 17 and 16:
 
 The Serial2 object is defined to use the second hardware serial port (UART1) on the ESP32.
-The Serial2.begin(9600, SERIAL_8N1, 17, 16) initializes the serial communication with a baud rate of 9600 on pins 17 (RX) and 16 (TX).
-Reading Serial Data and Publishing to MQTT and UART:
+The Serial2.begin(9600, SERIAL_8N1, 17, 16) initializes the serial communication with a baud rate of 9600 on pins 17 (RX) and 16 (TX). Only RX is connected in this application.
+
+**Reading Serial Data and Publishing to MQTT and UART:**
 
 The main loop() function reads data from the serial port, processes it, and publishes the resulting message to the MQTT broker under the topic home/alarms/paradox.
 It also prints the message to the UART (serial monitor) using Serial.println(uartPayload).
